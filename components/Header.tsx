@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -32,6 +33,22 @@ export default function Header() {
             <span>
               <strong className="font-semibold">Date:</strong> November 2025
             </span>
+          </div>
+
+          {/* Navigation Links */}
+          <div className="flex flex-wrap items-center justify-center gap-4 pt-8">
+            <Link
+              href="/timeline"
+              className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg font-semibold transition-all duration-200 border border-white/20"
+            >
+              View Timeline
+            </Link>
+            <Link
+              href="/data-requirements"
+              className="bg-white/10 hover:bg-white/20 backdrop-blur-sm px-6 py-3 rounded-lg font-semibold transition-all duration-200 border border-white/20"
+            >
+              Data Requirements
+            </Link>
           </div>
         </motion.div>
       </div>

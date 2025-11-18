@@ -1,0 +1,25 @@
+# Copy these environment variables to Vercel
+
+# 1. NEXTAUTH_SECRET (required)
+d0iySnjc7h7hWJR0cz3QkQxYtexvATr6QZNe1D+TjzU=
+
+# 2. AUTH_USERNAME (required)
+derrick
+
+# 3. AUTH_PASSWORD (required)
+allstate2026
+
+# 4. NEXTAUTH_URL (add AFTER first deploy)
+# Leave this blank initially, then update it to your Vercel URL after deployment
+# Example: https://bealer-blueprint-nextjs.vercel.app
+
+---
+
+INSTRUCTIONS:
+1. Go to: https://vercel.com/new
+2. Import: adrianstier/bealer-blueprint-nextjs
+3. Before deploying, click "Environment Variables"
+4. Add the 3 variables above (NEXTAUTH_SECRET, AUTH_USERNAME, AUTH_PASSWORD)
+5. Click "Deploy"
+6. After deploy, get your URL and add NEXTAUTH_URL with that value
+7. Redeploy (Settings → Redeploy)
