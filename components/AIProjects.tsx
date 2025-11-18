@@ -45,7 +45,6 @@ const projects = [
       "Personalized paper mail generation",
       "Risk identification for high-value customers",
       "Address validation and label printing",
-      "Payment issue early warning system",
     ],
     data: [
       "Monthly invoice files (PDF)",
@@ -63,11 +62,12 @@ const projects = [
     problem: [
       "Cancellation data difficult to review manually",
       "Missed outreach opportunities",
-      "Preventable customer losses",
+      "Preventable customer losses from cancellations and payment issues",
       "Lost premium and bonus potential",
     ],
     solution: [
       "Automated weekly cancel-pending monitoring",
+      "Payment issue early warning system for all customers",
       "Risk prioritization system",
       "Urgency categorization (red/yellow/green)",
       "Personalized outreach templates and scripts",
