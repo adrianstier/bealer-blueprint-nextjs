@@ -13,11 +13,11 @@ export default function Header() {
           className="text-center space-y-6"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            AI-Enabled Growth System
+            Agency Growth & Retention System
           </h1>
 
           <p className="text-xl md:text-2xl font-light opacity-95">
-            Strategic Blueprint for Allstate Santa Barbara & Goleta
+            Strategic Blueprint for Scaling Allstate Santa Barbara & Goleta
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm md:text-base opacity-90 pt-4">

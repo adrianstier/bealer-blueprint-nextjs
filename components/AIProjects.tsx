@@ -6,8 +6,8 @@ import { TrendingUp, Mail, Shield, MessageSquare, Share2 } from "lucide-react";
 const projects = [
   {
     id: "A",
-    title: "AI Lead Acquisition & Growth Optimization",
-    tagline: "Predictive lead scoring and ROI optimization",
+    title: "Lead Optimization & Growth Intelligence",
+    tagline: "Know which leads to prioritize and how much to spend",
     icon: TrendingUp,
     problem: [
       "No data-driven way to identify which demographics convert best",
@@ -16,11 +16,11 @@ const projects = [
       "No insight into bundling probability",
     ],
     solution: [
-      "ML predictive lead scoring",
-      "Demographic segmentation model",
-      "Automated weekly budget optimization",
-      "ROI and variable comp trajectory forecasting",
-      "NLP analysis of customer interactions",
+      "Predictive lead scoring system",
+      "Demographic performance analysis",
+      "Automated weekly budget recommendations",
+      "Variable comp trajectory forecasting",
+      "Conversion pattern analysis",
     ],
     data: [
       "Historical lead files with outcomes",
@@ -32,8 +32,8 @@ const projects = [
   },
   {
     id: "B",
-    title: "Automated AI Invoice & Envelope Mailing",
-    tagline: "Retention engine for high-value older customers",
+    title: "Automated Billing Communication System",
+    tagline: "Keep senior customers informed and reduce payment issues",
     icon: Mail,
     problem: [
       "Older customers expect paper invoices and clear reminders",
@@ -41,11 +41,11 @@ const projects = [
       "Missed payments lead to preventable cancellations",
     ],
     solution: [
-      "Automated invoice downloading and parsing",
-      "Personalized paper mail packet generation",
-      "Auto-classification of high-risk customers",
+      "Automated invoice processing and mailing",
+      "Personalized paper mail generation",
+      "Risk identification for high-value customers",
       "Address validation and label printing",
-      "Retention risk scoring",
+      "Payment issue early warning system",
     ],
     data: [
       "Monthly invoice files (PDF)",
@@ -57,8 +57,8 @@ const projects = [
   },
   {
     id: "C",
-    title: "AI Cancellation Watchtower & Save System",
-    tagline: "Proactive risk monitoring and automated outreach",
+    title: "Cancellation Prevention & Save System",
+    tagline: "Stop preventable cancellations before they happen",
     icon: Shield,
     problem: [
       "Cancellation data difficult to review manually",
@@ -67,11 +67,11 @@ const projects = [
       "Lost premium and bonus potential",
     ],
     solution: [
-      "Weekly auto-download of cancel-pending list",
-      "Predictive cancellation risk modeling",
+      "Automated weekly cancel-pending monitoring",
+      "Risk prioritization system",
       "Urgency categorization (red/yellow/green)",
-      "Personalized texts, emails, and call scripts",
-      "Dashboard showing premium at risk",
+      "Personalized outreach templates and scripts",
+      "Premium-at-risk tracking dashboard",
     ],
     data: [
       "Weekly cancel-pending reports",
@@ -83,8 +83,8 @@ const projects = [
   },
   {
     id: "D",
-    title: "AI Concierge + Personalized Newsletter",
-    tagline: "Automated relationship building and engagement",
+    title: "Customer Engagement & Communication System",
+    tagline: "Stay connected with customers year-round",
     icon: MessageSquare,
     problem: [
       "Customers rarely hear from agent unless issues arise",
@@ -93,10 +93,10 @@ const projects = [
       "Limited cross-selling and referral generation",
     ],
     solution: [
-      "AI-generated monthly personalized newsletters",
-      "Birthday, holiday, and life-event messages",
+      "Automated monthly personalized newsletters",
+      "Birthday, holiday, and life-event messaging",
       "Plain-English renewal summaries",
-      "Post-claim check-ins",
+      "Post-claim follow-up automation",
       "Local Santa Barbara content integration",
     ],
     data: [
@@ -108,8 +108,8 @@ const projects = [
   },
   {
     id: "E",
-    title: "AI Targeted Social Media Marketing",
-    tagline: "Intelligent audience targeting and ad optimization",
+    title: "Targeted Social Media Marketing System",
+    tagline: "Reach the right customers in the right places",
     icon: Share2,
     problem: [
       "Limited lead sources",
@@ -118,11 +118,11 @@ const projects = [
       "Low brand visibility in local market",
     ],
     solution: [
-      "Predictive audience modeling",
-      "AI-generated ad creative (copy + images + scripts)",
-      "Automated A/B testing",
-      "Budget optimization across platforms",
-      "Conversion probability forecasting",
+      "Intelligent audience targeting",
+      "Automated ad creative generation and testing",
+      "Continuous A/B testing optimization",
+      "Multi-platform budget optimization",
+      "Performance tracking and forecasting",
     ],
     data: [
       "Customer list for lookalike audiences",
@@ -144,10 +144,10 @@ export default function AIProjects() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-4">
-            Five Core AI Projects
+            Five Core Systems
           </h2>
           <p className="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-12">
-            Each system solves a specific challenge while creating compounding long-term value
+            Each system tackles a specific business challenge while creating compounding long-term value
           </p>
 
           <div className="space-y-8">
@@ -202,7 +202,7 @@ export default function AIProjects() {
                     <div>
                       <h4 className="text-lg font-semibold text-primary mb-3 flex items-center gap-2">
                         <span className="text-primary-light">▸</span>
-                        AI Solution
+                        How We Solve It
                       </h4>
                       <ul className="space-y-2">
                         {project.solution.map((item, i) => (

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Target, Zap, Bot, ArrowRight } from "lucide-react";
+import { Target, Zap, Lightbulb, ArrowRight } from "lucide-react";
 
 const summaryCards = [
   {
@@ -17,10 +17,10 @@ const summaryCards = [
       "Rising rate pressure, increased cancellation risk, manual processes, and limited scalability threaten growth potential and customer retention.",
   },
   {
-    icon: Bot,
+    icon: Lightbulb,
     title: "The Solution",
     description:
-      "A five-pillar integrated AI system that creates predictable, scalable growth through automation, personalization, and data-driven decision making.",
+      "A five-pillar integrated system that creates predictable, scalable growth through intelligent automation, personalization, and data-driven decision making.",
   },
 ];
 

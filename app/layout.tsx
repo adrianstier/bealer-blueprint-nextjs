@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AI Growth System Blueprint - Allstate Santa Barbara",
-  description: "Strategic Blueprint for AI-Enabled Growth, Retention, and Customer Experience System",
+  title: "Growth & Retention System - Allstate Santa Barbara",
+  description: "Strategic blueprint for increasing sales, reducing cancellations, and improving operational efficiency through intelligent automation",
 };
 
 export default function RootLayout({
