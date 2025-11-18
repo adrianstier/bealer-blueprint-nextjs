@@ -96,7 +96,7 @@ export default function NextSteps({ onPrintClick }: NextStepsProps) {
 
             {/* Contact Info */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 mb-8 max-w-2xl mx-auto">
-              <h4 className="text-xl font-bold text-primary mb-4">Schedule Your Kick-off Meeting</h4>
+              <h4 className="text-xl font-bold text-primary mb-4">Let's Meet to Implement These Changes</h4>
               <div className="space-y-3 text-gray-700">
                 <p className="text-lg">
                   <strong className="text-primary">Adrian Stier</strong> — Systems & Automation Consultant
@@ -121,7 +121,7 @@ export default function NextSteps({ onPrintClick }: NextStepsProps) {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a
-                href="mailto:adrian.stier@gmail.com?subject=Agency Growth System - Kick-off Meeting&body=Hi Adrian,%0D%0A%0D%0AI'd like to schedule a kick-off meeting to discuss the Agency Growth & Retention System.%0D%0A%0D%0ABest times for me are:%0D%0A%0D%0AThanks,%0D%0ADerrick"
+                href="mailto:adrian.stier@gmail.com?subject=Agency Growth System - Let's Get Started&body=Hi Adrian,%0D%0A%0D%0AI'd like to meet to discuss implementing these changes for the Agency Growth & Retention System.%0D%0A%0D%0ABest times for me are:%0D%0A%0D%0AThanks,%0D%0ADerrick"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-primary to-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"

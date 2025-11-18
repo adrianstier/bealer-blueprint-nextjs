@@ -1,0 +1,583 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - main [ref=e3]:
+    - generic [ref=e6]:
+      - heading "Agency Growth & Retention System" [level=1] [ref=e7]
+      - paragraph [ref=e8]: Strategic Blueprint for Scaling Allstate Santa Barbara & Goleta
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - strong [ref=e11]: "For:"
+          - text: Derrick Bealer, Allstate Agent
+        - generic [ref=e12]: •
+        - generic [ref=e13]:
+          - strong [ref=e14]: "By:"
+          - text: Adrian Stier
+        - generic [ref=e15]: •
+        - generic [ref=e16]:
+          - strong [ref=e17]: "Date:"
+          - text: November 2025
+      - generic [ref=e18]:
+        - link "View Timeline" [ref=e19] [cursor=pointer]:
+          - /url: /timeline
+        - link "Data Requirements" [ref=e20] [cursor=pointer]:
+          - /url: /data-requirements
+    - generic [ref=e23]:
+      - heading "Executive Summary" [level=2] [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - img [ref=e29]
+          - heading "The Opportunity" [level=3] [ref=e33]
+          - paragraph [ref=e34]: Santa Barbara/Goleta represents one of the most competitive and high-value personal lines markets with significant retiree population, high-value homeowners, and tech professionals.
+        - generic [ref=e35]:
+          - img [ref=e38]
+          - heading "The Challenge" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Rising rate pressure, increased cancellation risk, manual processes, and limited scalability threaten growth potential and customer retention.
+        - generic [ref=e42]:
+          - img [ref=e45]
+          - heading "The Solution" [level=3] [ref=e47]
+          - paragraph [ref=e48]: A six-pillar integrated system that creates predictable, scalable growth through intelligent automation, personalization, and data-driven decision making.
+      - generic [ref=e49]:
+        - heading "Continuous Growth Lifecycle" [level=3] [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: Attract
+            - img [ref=e54]
+          - generic [ref=e56]:
+            - generic [ref=e57]: Convert
+            - img [ref=e58]
+          - generic [ref=e60]:
+            - generic [ref=e61]: Protect
+            - img [ref=e62]
+          - generic [ref=e64]:
+            - generic [ref=e65]: Nurture
+            - img [ref=e66]
+          - generic [ref=e68]:
+            - generic [ref=e69]: Upsell
+            - img [ref=e70]
+          - generic [ref=e73]: Retain
+    - generic [ref=e76]:
+      - heading "Six Core Systems" [level=2] [ref=e77]
+      - paragraph [ref=e78]: Each system tackles a specific business challenge while creating compounding long-term value
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e83]: A
+            - generic [ref=e84]:
+              - heading "Lead Optimization & Growth Intelligence" [level=3] [ref=e85]
+              - paragraph [ref=e86]: Know which leads to prioritize and how much to spend
+            - img [ref=e88]
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - heading "▸ The Problem" [level=4] [ref=e93]:
+                - generic [ref=e94]: ▸
+                - text: The Problem
+              - list [ref=e95]:
+                - listitem [ref=e96]:
+                  - generic [ref=e97]: •
+                  - text: No data-driven way to identify which demographics convert best
+                - listitem [ref=e98]:
+                  - generic [ref=e99]: •
+                  - text: Unclear optimal lead spending levels
+                - listitem [ref=e100]:
+                  - generic [ref=e101]: •
+                  - text: Can't predict leads needed to hit variable comp thresholds
+                - listitem [ref=e102]:
+                  - generic [ref=e103]: •
+                  - text: No insight into bundling probability
+            - generic [ref=e104]:
+              - heading "▸ How We Solve It" [level=4] [ref=e105]:
+                - generic [ref=e106]: ▸
+                - text: How We Solve It
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - generic [ref=e109]: •
+                  - text: Predictive lead scoring system
+                - listitem [ref=e110]:
+                  - generic [ref=e111]: •
+                  - text: Demographic performance analysis
+                - listitem [ref=e112]:
+                  - generic [ref=e113]: •
+                  - text: Automated weekly budget recommendations
+                - listitem [ref=e114]:
+                  - generic [ref=e115]: •
+                  - text: Variable comp trajectory forecasting
+                - listitem [ref=e116]:
+                  - generic [ref=e117]: •
+                  - text: Conversion pattern analysis
+            - generic [ref=e118]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e119]:
+                - generic [ref=e120]: ▸
+                - text: Key Data Needed
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - generic [ref=e123]: •
+                  - text: Historical lead files with outcomes
+                - listitem [ref=e124]:
+                  - generic [ref=e125]: •
+                  - text: Customer demographics and premium amounts
+                - listitem [ref=e126]:
+                  - generic [ref=e127]: •
+                  - text: Marketing source per lead
+                - listitem [ref=e128]:
+                  - generic [ref=e129]: •
+                  - text: Sales activity logs and notes
+                - listitem [ref=e130]:
+                  - generic [ref=e131]: •
+                  - text: Variable compensation thresholds
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e135]: B
+            - generic [ref=e136]:
+              - heading "Automated Billing Communication System" [level=3] [ref=e137]
+              - paragraph [ref=e138]: Keep senior customers informed and reduce payment issues
+            - img [ref=e140]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - heading "▸ The Problem" [level=4] [ref=e145]:
+                - generic [ref=e146]: ▸
+                - text: The Problem
+              - list [ref=e147]:
+                - listitem [ref=e148]:
+                  - generic [ref=e149]: •
+                  - text: Older customers expect paper invoices and clear reminders
+                - listitem [ref=e150]:
+                  - generic [ref=e151]: •
+                  - text: Allstate's digital-first approach creates frustration
+                - listitem [ref=e152]:
+                  - generic [ref=e153]: •
+                  - text: Missed payments lead to preventable cancellations
+            - generic [ref=e154]:
+              - heading "▸ How We Solve It" [level=4] [ref=e155]:
+                - generic [ref=e156]: ▸
+                - text: How We Solve It
+              - list [ref=e157]:
+                - listitem [ref=e158]:
+                  - generic [ref=e159]: •
+                  - text: Automated invoice processing and mailing
+                - listitem [ref=e160]:
+                  - generic [ref=e161]: •
+                  - text: Personalized paper mail generation
+                - listitem [ref=e162]:
+                  - generic [ref=e163]: •
+                  - text: Risk identification for high-value customers
+                - listitem [ref=e164]:
+                  - generic [ref=e165]: •
+                  - text: Address validation and label printing
+            - generic [ref=e166]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e167]:
+                - generic [ref=e168]: ▸
+                - text: Key Data Needed
+              - list [ref=e169]:
+                - listitem [ref=e170]:
+                  - generic [ref=e171]: •
+                  - text: Monthly invoice files (PDF)
+                - listitem [ref=e172]:
+                  - generic [ref=e173]: •
+                  - text: Customer addresses and demographics
+                - listitem [ref=e174]:
+                  - generic [ref=e175]: •
+                  - text: Payment history
+                - listitem [ref=e176]:
+                  - generic [ref=e177]: •
+                  - text: Billing preferences
+                - listitem [ref=e178]:
+                  - generic [ref=e179]: •
+                  - text: Complaints/notes about billing confusion
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic [ref=e183]: C
+            - generic [ref=e184]:
+              - heading "Cancellation Prevention & Save System" [level=3] [ref=e185]
+              - paragraph [ref=e186]: Stop preventable cancellations before they happen
+            - img [ref=e188]
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - heading "▸ The Problem" [level=4] [ref=e192]:
+                - generic [ref=e193]: ▸
+                - text: The Problem
+              - list [ref=e194]:
+                - listitem [ref=e195]:
+                  - generic [ref=e196]: •
+                  - text: Cancellation data difficult to review manually
+                - listitem [ref=e197]:
+                  - generic [ref=e198]: •
+                  - text: Missed outreach opportunities
+                - listitem [ref=e199]:
+                  - generic [ref=e200]: •
+                  - text: Preventable customer losses from cancellations and payment issues
+                - listitem [ref=e201]:
+                  - generic [ref=e202]: •
+                  - text: Lost premium and bonus potential
+            - generic [ref=e203]:
+              - heading "▸ How We Solve It" [level=4] [ref=e204]:
+                - generic [ref=e205]: ▸
+                - text: How We Solve It
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - generic [ref=e208]: •
+                  - text: Automated weekly cancel-pending monitoring
+                - listitem [ref=e209]:
+                  - generic [ref=e210]: •
+                  - text: Payment issue early warning system for all customers
+                - listitem [ref=e211]:
+                  - generic [ref=e212]: •
+                  - text: Risk prioritization system
+                - listitem [ref=e213]:
+                  - generic [ref=e214]: •
+                  - text: Urgency categorization (red/yellow/green)
+                - listitem [ref=e215]:
+                  - generic [ref=e216]: •
+                  - text: Personalized outreach templates and scripts
+                - listitem [ref=e217]:
+                  - generic [ref=e218]: •
+                  - text: Premium-at-risk tracking dashboard
+            - generic [ref=e219]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e220]:
+                - generic [ref=e221]: ▸
+                - text: Key Data Needed
+              - list [ref=e222]:
+                - listitem [ref=e223]:
+                  - generic [ref=e224]: •
+                  - text: Weekly cancel-pending reports
+                - listitem [ref=e225]:
+                  - generic [ref=e226]: •
+                  - text: Reason codes and renewal dates
+                - listitem [ref=e227]:
+                  - generic [ref=e228]: •
+                  - text: Contact information
+                - listitem [ref=e229]:
+                  - generic [ref=e230]: •
+                  - text: Historical save attempts and notes
+                - listitem [ref=e231]:
+                  - generic [ref=e232]: •
+                  - text: Premium per policy and communication logs
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e236]: D
+            - generic [ref=e237]:
+              - heading "Customer Engagement & Communication System" [level=3] [ref=e238]
+              - paragraph [ref=e239]: Stay connected with customers year-round
+            - img [ref=e241]
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - heading "▸ The Problem" [level=4] [ref=e245]:
+                - generic [ref=e246]: ▸
+                - text: The Problem
+              - list [ref=e247]:
+                - listitem [ref=e248]:
+                  - generic [ref=e249]: •
+                  - text: Customers rarely hear from agent unless issues arise
+                - listitem [ref=e250]:
+                  - generic [ref=e251]: •
+                  - text: Rising rates require proactive communication
+                - listitem [ref=e252]:
+                  - generic [ref=e253]: •
+                  - text: Missed opportunities for trust-building
+                - listitem [ref=e254]:
+                  - generic [ref=e255]: •
+                  - text: Limited cross-selling and referral generation
+            - generic [ref=e256]:
+              - heading "▸ How We Solve It" [level=4] [ref=e257]:
+                - generic [ref=e258]: ▸
+                - text: How We Solve It
+              - list [ref=e259]:
+                - listitem [ref=e260]:
+                  - generic [ref=e261]: •
+                  - text: Automated monthly personalized newsletters
+                - listitem [ref=e262]:
+                  - generic [ref=e263]: •
+                  - text: Birthday, holiday, and life-event messaging
+                - listitem [ref=e264]:
+                  - generic [ref=e265]: •
+                  - text: Plain-English renewal summaries
+                - listitem [ref=e266]:
+                  - generic [ref=e267]: •
+                  - text: Post-claim follow-up automation
+                - listitem [ref=e268]:
+                  - generic [ref=e269]: •
+                  - text: Local Santa Barbara content integration
+            - generic [ref=e270]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e271]:
+                - generic [ref=e272]: ▸
+                - text: Key Data Needed
+              - list [ref=e273]:
+                - listitem [ref=e274]:
+                  - generic [ref=e275]: •
+                  - text: Age, household structure, and renewal dates
+                - listitem [ref=e276]:
+                  - generic [ref=e277]: •
+                  - text: Policy mix and birthdays
+                - listitem [ref=e278]:
+                  - generic [ref=e279]: •
+                  - text: Customer interests (simple survey)
+                - listitem [ref=e280]:
+                  - generic [ref=e281]: •
+                  - text: Service history and claim history
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e285]: E
+            - generic [ref=e286]:
+              - heading "Targeted Social Media Marketing System" [level=3] [ref=e287]
+              - paragraph [ref=e288]: Reach the right customers in the right places
+            - img [ref=e290]
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - heading "▸ The Problem" [level=4] [ref=e298]:
+                - generic [ref=e299]: ▸
+                - text: The Problem
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - generic [ref=e302]: •
+                  - text: Limited lead sources
+                - listitem [ref=e303]:
+                  - generic [ref=e304]: •
+                  - text: Missed opportunity to target ideal customers
+                - listitem [ref=e305]:
+                  - generic [ref=e306]: •
+                  - text: High acquisition costs
+                - listitem [ref=e307]:
+                  - generic [ref=e308]: •
+                  - text: Low brand visibility in local market
+            - generic [ref=e309]:
+              - heading "▸ How We Solve It" [level=4] [ref=e310]:
+                - generic [ref=e311]: ▸
+                - text: How We Solve It
+              - list [ref=e312]:
+                - listitem [ref=e313]:
+                  - generic [ref=e314]: •
+                  - text: Intelligent audience targeting
+                - listitem [ref=e315]:
+                  - generic [ref=e316]: •
+                  - text: Automated ad creative generation and testing
+                - listitem [ref=e317]:
+                  - generic [ref=e318]: •
+                  - text: Continuous A/B testing optimization
+                - listitem [ref=e319]:
+                  - generic [ref=e320]: •
+                  - text: Multi-platform budget optimization
+                - listitem [ref=e321]:
+                  - generic [ref=e322]: •
+                  - text: Performance tracking and forecasting
+            - generic [ref=e323]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e324]:
+                - generic [ref=e325]: ▸
+                - text: Key Data Needed
+              - list [ref=e326]:
+                - listitem [ref=e327]:
+                  - generic [ref=e328]: •
+                  - text: Customer list for lookalike audiences
+                - listitem [ref=e329]:
+                  - generic [ref=e330]: •
+                  - text: High-converting zip codes
+                - listitem [ref=e331]:
+                  - generic [ref=e332]: •
+                  - text: Brand images and videos
+                - listitem [ref=e333]:
+                  - generic [ref=e334]: •
+                  - text: Allstate compliance requirements
+                - listitem [ref=e335]:
+                  - generic [ref=e336]: •
+                  - text: Lead outcomes and household demographics
+        - generic [ref=e337]:
+          - generic [ref=e338]:
+            - generic [ref=e340]: F
+            - generic [ref=e341]:
+              - heading "Smart Cross-Sell & Bundle Optimization" [level=3] [ref=e342]
+              - paragraph [ref=e343]: Increase premium per customer through intelligent product recommendations
+            - img [ref=e345]
+          - generic [ref=e349]:
+            - generic [ref=e350]:
+              - heading "▸ The Problem" [level=4] [ref=e351]:
+                - generic [ref=e352]: ▸
+                - text: The Problem
+              - list [ref=e353]:
+                - listitem [ref=e354]:
+                  - generic [ref=e355]: •
+                  - text: Manual review of customer policies is time-consuming
+                - listitem [ref=e356]:
+                  - generic [ref=e357]: •
+                  - text: Missing obvious bundling and cross-sell opportunities
+                - listitem [ref=e358]:
+                  - generic [ref=e359]: •
+                  - text: Don't know when customers are most receptive to new products
+                - listitem [ref=e360]:
+                  - generic [ref=e361]: •
+                  - text: Difficult to track which life events trigger coverage needs
+                - listitem [ref=e362]:
+                  - generic [ref=e363]: •
+                  - text: No systematic follow-up on declined quotes
+            - generic [ref=e364]:
+              - heading "▸ How We Solve It" [level=4] [ref=e365]:
+                - generic [ref=e366]: ▸
+                - text: How We Solve It
+              - list [ref=e367]:
+                - listitem [ref=e368]:
+                  - generic [ref=e369]: •
+                  - text: Automated policy gap analysis for every customer
+                - listitem [ref=e370]:
+                  - generic [ref=e371]: •
+                  - text: Life event detection (marriage, new home, new car, children)
+                - listitem [ref=e372]:
+                  - generic [ref=e373]: •
+                  - text: Personalized product recommendations with timing optimization
+                - listitem [ref=e374]:
+                  - generic [ref=e375]: •
+                  - text: Bundle discount opportunity identification
+                - listitem [ref=e376]:
+                  - generic [ref=e377]: •
+                  - text: Cross-sell conversation scripts and email templates
+                - listitem [ref=e378]:
+                  - generic [ref=e379]: •
+                  - text: Competitive rate monitoring for switching opportunities
+            - generic [ref=e380]:
+              - heading "▸ Key Data Needed" [level=4] [ref=e381]:
+                - generic [ref=e382]: ▸
+                - text: Key Data Needed
+              - list [ref=e383]:
+                - listitem [ref=e384]:
+                  - generic [ref=e385]: •
+                  - text: Current policy mix per customer
+                - listitem [ref=e386]:
+                  - generic [ref=e387]: •
+                  - text: Customer demographics and life stage
+                - listitem [ref=e388]:
+                  - generic [ref=e389]: •
+                  - text: Recent quote activity (sold and declined)
+                - listitem [ref=e390]:
+                  - generic [ref=e391]: •
+                  - text: Claims history and policy changes
+                - listitem [ref=e392]:
+                  - generic [ref=e393]: •
+                  - text: Competitor rate sheets
+                - listitem [ref=e394]:
+                  - generic [ref=e395]: •
+                  - text: Customer contact preferences and response history
+    - generic [ref=e398]:
+      - heading "Integrated System Benefits" [level=2] [ref=e399]
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - img [ref=e404]
+          - heading "Business Growth" [level=3] [ref=e407]
+          - list [ref=e408]:
+            - listitem [ref=e409]:
+              - img [ref=e410]
+              - generic [ref=e412]: Predictable and scalable lead generation
+            - listitem [ref=e413]:
+              - img [ref=e414]
+              - generic [ref=e416]: Higher conversion rates through better targeting
+            - listitem [ref=e417]:
+              - img [ref=e418]
+              - generic [ref=e420]: Improved bundling opportunities
+            - listitem [ref=e421]:
+              - img [ref=e422]
+              - generic [ref=e424]: More efficient marketing spending
+            - listitem [ref=e425]:
+              - img [ref=e426]
+              - generic [ref=e428]: Clear path to higher compensation tiers
+        - generic [ref=e429]:
+          - img [ref=e432]
+          - heading "Retention" [level=3] [ref=e434]
+          - list [ref=e435]:
+            - listitem [ref=e436]:
+              - img [ref=e437]
+              - generic [ref=e439]: Fewer preventable cancellations
+            - listitem [ref=e440]:
+              - img [ref=e441]
+              - generic [ref=e443]: Stronger customer relationships
+            - listitem [ref=e444]:
+              - img [ref=e445]
+              - generic [ref=e447]: Improved clarity around renewals
+            - listitem [ref=e448]:
+              - img [ref=e449]
+              - generic [ref=e451]: Higher customer satisfaction scores
+            - listitem [ref=e452]:
+              - img [ref=e453]
+              - generic [ref=e455]: Proactive issue resolution
+        - generic [ref=e456]:
+          - img [ref=e459]
+          - heading "Operational Efficiency" [level=3] [ref=e462]
+          - list [ref=e463]:
+            - listitem [ref=e464]:
+              - img [ref=e465]
+              - generic [ref=e467]: Automated monthly and weekly workflows
+            - listitem [ref=e468]:
+              - img [ref=e469]
+              - generic [ref=e471]: Reduced manual labor and administrative burden
+            - listitem [ref=e472]:
+              - img [ref=e473]
+              - generic [ref=e475]: More time for high-value activities
+            - listitem [ref=e476]:
+              - img [ref=e477]
+              - generic [ref=e479]: AI-powered executive insights
+            - listitem [ref=e480]:
+              - img [ref=e481]
+              - generic [ref=e483]: Streamlined decision-making processes
+        - generic [ref=e484]:
+          - img [ref=e487]
+          - heading "Customer Experience" [level=3] [ref=e489]
+          - list [ref=e490]:
+            - listitem [ref=e491]:
+              - img [ref=e492]
+              - generic [ref=e494]: Personal, relevant, meaningful communication
+            - listitem [ref=e495]:
+              - img [ref=e496]
+              - generic [ref=e498]: Seamless tech integration with human service
+            - listitem [ref=e499]:
+              - img [ref=e500]
+              - generic [ref=e502]: Santa Barbara/Goleta-specific localization
+            - listitem [ref=e503]:
+              - img [ref=e504]
+              - generic [ref=e506]: Stronger emotional connection to agency
+            - listitem [ref=e507]:
+              - img [ref=e508]
+              - generic [ref=e510]: Timely, proactive support
+    - generic [ref=e513]:
+      - heading "Next Steps" [level=2] [ref=e514]
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - generic [ref=e518]: "1"
+          - img [ref=e519]
+          - heading "Review & Approve" [level=3] [ref=e523]
+          - paragraph [ref=e524]: Review this blueprint with Derrick and get approval to proceed
+        - generic [ref=e525]:
+          - generic [ref=e527]: "2"
+          - img [ref=e528]
+          - heading "Data Collection" [level=3] [ref=e532]
+          - paragraph [ref=e533]: Work with Britney to gather all required datasets
+        - generic [ref=e534]:
+          - generic [ref=e536]: "3"
+          - img [ref=e537]
+          - heading "Kick-off Meeting" [level=3] [ref=e539]
+          - paragraph [ref=e540]: Schedule initial working session to begin Phase 1
+        - generic [ref=e541]:
+          - generic [ref=e543]: "4"
+          - img [ref=e544]
+          - heading "Weekly Check-ins" [level=3] [ref=e549]
+          - paragraph [ref=e550]: Establish regular progress reviews and feedback sessions
+      - generic [ref=e551]:
+        - heading "Ready to Transform Your Agency?" [level=3] [ref=e552]
+        - paragraph [ref=e553]: This strategy positions Derrick's agency far ahead of competitors by creating a predictable, scalable, automated growth engine that attracts better customers, protects existing policies, builds deeper loyalty, and helps achieve higher year-end variable compensation.
+        - generic [ref=e554]:
+          - heading "Schedule Your Kick-off Meeting" [level=4] [ref=e555]
+          - generic [ref=e556]:
+            - paragraph [ref=e557]:
+              - strong [ref=e558]: Adrian Stier
+              - text: — Systems & Automation Consultant
+            - generic [ref=e559]:
+              - link "📧 adrian.stier@gmail.com" [ref=e560] [cursor=pointer]:
+                - /url: mailto:adrian.stier@gmail.com
+              - generic [ref=e561]: •
+              - link "📞 (203) 241-8978" [ref=e562] [cursor=pointer]:
+                - /url: tel:+12032418978
+        - generic [ref=e563]:
+          - link "Email Adrian" [ref=e564] [cursor=pointer]:
+            - /url: mailto:adrian.stier@gmail.com?subject=Agency Growth System - Kick-off Meeting&body=Hi Adrian,%0D%0A%0D%0AI'd like to schedule a kick-off meeting to discuss the Agency Growth & Retention System.%0D%0A%0D%0ABest times for me are:%0D%0A%0D%0AThanks,%0D%0ADerrick
+          - link "Call Adrian" [ref=e565] [cursor=pointer]:
+            - /url: tel:+12032418978
+    - generic [ref=e567]:
+      - paragraph [ref=e568]: © 2025 AI Growth System Blueprint - Prepared for Derrick Bealer, Allstate Agent
+      - paragraph [ref=e569]: Confidential - For Internal Use Only
+```

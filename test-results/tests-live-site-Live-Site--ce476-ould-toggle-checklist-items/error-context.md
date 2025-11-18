@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "← Back to Overview" [ref=e8] [cursor=pointer]:
+            - /url: /
+          - heading "Data Requirements Checklist" [level=1] [ref=e9]
+        - generic [ref=e10]:
+          - link "View Timeline" [ref=e11] [cursor=pointer]:
+            - /url: /timeline
+          - button "Print Checklist" [ref=e12]
+    - main [ref=e13]:
+      - generic [ref=e16]:
+        - heading "Data Requirements Checklist" [level=2] [ref=e17]
+        - paragraph [ref=e18]: Essential data needed to power the AI systems
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - heading "1. Customer Data" [level=3] [ref=e21]
+            - list [ref=e22]:
+              - listitem [ref=e23] [cursor=pointer]:
+                - img [ref=e24]
+                - generic [ref=e26]: Names, emails, phone numbers
+              - listitem [ref=e27] [cursor=pointer]:
+                - img [ref=e28]
+                - generic [ref=e30]: Addresses
+              - listitem [ref=e31] [cursor=pointer]:
+                - img [ref=e32]
+                - generic [ref=e34]: Age and household structure
+              - listitem [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+                - generic [ref=e38]: Renewal dates
+              - listitem [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+                - generic [ref=e42]: Policy mix and premium amounts
+              - listitem [ref=e43] [cursor=pointer]:
+                - img [ref=e44]
+                - generic [ref=e46]: Birthdays
+              - listitem [ref=e47] [cursor=pointer]:
+                - img [ref=e48]
+                - generic [ref=e50]: Customer interests (optional)
+              - listitem [ref=e51] [cursor=pointer]:
+                - img [ref=e52]
+                - generic [ref=e54]: Claim history
+              - listitem [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+                - generic [ref=e58]: Service notes and interaction history
+          - generic [ref=e59]:
+            - heading "2. Lead Data" [level=3] [ref=e60]
+            - list [ref=e61]:
+              - listitem [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+                - generic [ref=e65]: Full historical lead lists (CSV/Excel)
+              - listitem [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+                - generic [ref=e69]: Lead sources and marketing channels
+              - listitem [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+                - generic [ref=e73]: Outcomes (quoted/sold/unreachable)
+              - listitem [ref=e74] [cursor=pointer]:
+                - img [ref=e75]
+                - generic [ref=e77]: Premium amounts and policy types
+              - listitem [ref=e78] [cursor=pointer]:
+                - img [ref=e79]
+                - generic [ref=e81]: Demographic data (age, zip, income proxies)
+              - listitem [ref=e82] [cursor=pointer]:
+                - img [ref=e83]
+                - generic [ref=e85]: Sales activity logs
+              - listitem [ref=e86] [cursor=pointer]:
+                - img [ref=e87]
+                - generic [ref=e89]: Notes and comments on leads
+              - listitem [ref=e90] [cursor=pointer]:
+                - img [ref=e91]
+                - generic [ref=e93]: Conversion timelines
+          - generic [ref=e94]:
+            - heading "3. Cancellation Data" [level=3] [ref=e95]
+            - list [ref=e96]:
+              - listitem [ref=e97] [cursor=pointer]:
+                - img [ref=e98]
+                - generic [ref=e100]: Weekly cancel-pending reports
+              - listitem [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+                - generic [ref=e104]: Cancellation reason codes
+              - listitem [ref=e105] [cursor=pointer]:
+                - img [ref=e106]
+                - generic [ref=e108]: Premium at risk per policy
+              - listitem [ref=e109] [cursor=pointer]:
+                - img [ref=e110]
+                - generic [ref=e112]: Renewal dates and policy details
+              - listitem [ref=e113] [cursor=pointer]:
+                - img [ref=e114]
+                - generic [ref=e116]: Communication history
+              - listitem [ref=e117] [cursor=pointer]:
+                - img [ref=e118]
+                - generic [ref=e120]: Historical save attempts and outcomes
+              - listitem [ref=e121] [cursor=pointer]:
+                - img [ref=e122]
+                - generic [ref=e124]: Customer contact information
+          - generic [ref=e125]:
+            - heading "4. Billing Data" [level=3] [ref=e126]
+            - list [ref=e127]:
+              - listitem [ref=e128] [cursor=pointer]:
+                - img [ref=e129]
+                - generic [ref=e131]: Monthly invoice files (PDF or similar)
+              - listitem [ref=e132] [cursor=pointer]:
+                - img [ref=e133]
+                - generic [ref=e135]: Payment history and dates
+              - listitem [ref=e136] [cursor=pointer]:
+                - img [ref=e137]
+                - generic [ref=e139]: Billing preferences (paper vs digital)
+              - listitem [ref=e140] [cursor=pointer]:
+                - img [ref=e141]
+                - generic [ref=e143]: Customer addresses for mailing
+              - listitem [ref=e144] [cursor=pointer]:
+                - img [ref=e145]
+                - generic [ref=e147]: Complaints or notes about billing confusion
+              - listitem [ref=e148] [cursor=pointer]:
+                - img [ref=e149]
+                - generic [ref=e151]: Auto-pay status
+          - generic [ref=e152]:
+            - heading "5. Marketing Data" [level=3] [ref=e153]
+            - list [ref=e154]:
+              - listitem [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+                - generic [ref=e158]: Existing brand assets (logos, images, videos)
+              - listitem [ref=e159] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e162]: Social media account access
+              - listitem [ref=e163] [cursor=pointer]:
+                - img [ref=e164]
+                - generic [ref=e166]: Prior campaign results (if available)
+              - listitem [ref=e167] [cursor=pointer]:
+                - img [ref=e168]
+                - generic [ref=e170]: Allstate marketing compliance requirements
+              - listitem [ref=e171] [cursor=pointer]:
+                - img [ref=e172]
+                - generic [ref=e174]: Target zip codes and demographics
+              - listitem [ref=e175] [cursor=pointer]:
+                - img [ref=e176]
+                - generic [ref=e178]: Current marketing budget allocation
+          - generic [ref=e179]:
+            - heading "6. Business Performance Data" [level=3] [ref=e180]
+            - list [ref=e181]:
+              - listitem [ref=e182] [cursor=pointer]:
+                - img [ref=e183]
+                - generic [ref=e185]: Variable compensation thresholds
+              - listitem [ref=e186] [cursor=pointer]:
+                - img [ref=e187]
+                - generic [ref=e189]: Current policy counts by type
+              - listitem [ref=e190] [cursor=pointer]:
+                - img [ref=e191]
+                - generic [ref=e193]: Bundling rates and cross-sell data
+              - listitem [ref=e194] [cursor=pointer]:
+                - img [ref=e195]
+                - generic [ref=e197]: Average customer lifetime value
+              - listitem [ref=e198] [cursor=pointer]:
+                - img [ref=e199]
+                - generic [ref=e201]: Lead cost and ROI metrics
+              - listitem [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+                - generic [ref=e205]: Retention rates by segment
+```
