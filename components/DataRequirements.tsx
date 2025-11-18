@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Check, Square } from "lucide-react";
 
 const dataCategories = [
@@ -81,6 +81,28 @@ const dataCategories = [
 
 export default function DataRequirements() {
   const [checkedItems, setCheckedItems] = useState<Set<string>>(new Set());
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  // Load checked items from localStorage on mount
+  useEffect(() => {
+    const saved = localStorage.getItem("dataRequirements");
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        setCheckedItems(new Set(parsed));
+      } catch (e) {
+        console.error("Failed to load saved checklist", e);
+      }
+    }
+    setIsLoaded(true);
+  }, []);
+
+  // Save checked items to localStorage whenever they change
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem("dataRequirements", JSON.stringify(Array.from(checkedItems)));
+    }
+  }, [checkedItems, isLoaded]);
 
   const toggleItem = (categoryIndex: number, itemIndex: number) => {
     const key = `${categoryIndex}-${itemIndex}`;

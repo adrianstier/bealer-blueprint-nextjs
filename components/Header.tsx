@@ -26,7 +26,7 @@ export default function Header() {
             </span>
             <span className="hidden sm:inline">•</span>
             <span>
-              <strong className="font-semibold">By:</strong> Adrian
+              <strong className="font-semibold">By:</strong> Adrian Stier
             </span>
             <span className="hidden sm:inline">•</span>
             <span>

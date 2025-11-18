@@ -15,3 +15,77 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Print styles for clean PDF generation */
+@media print {
+  @page {
+    margin: 0.75in;
+    size: letter;
+  }
+
+  body {
+    background-color: white;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Prevent page breaks inside important content blocks */
+  section,
+  .no-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Allow breaks between sections */
+  section {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /* Keep project cards together */
+  [class*="project-card"],
+  [class*="rounded-2xl"] {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep timeline phases together */
+  [class*="timeline"],
+  [class*="phase"] {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Prevent orphaned headings */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep lists together when possible */
+  ul, ol {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Hide animations and transitions for print */
+  * {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
+
+  /* Ensure backgrounds and colors print */
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* Optimize shadows and gradients for print */
+  [class*="shadow"],
+  [class*="gradient"] {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

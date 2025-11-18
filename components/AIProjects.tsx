@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TrendingUp, Mail, Shield, MessageSquare, Share2 } from "lucide-react";
+import { TrendingUp, Mail, Shield, MessageSquare, Share2, Layers } from "lucide-react";
 
 const projects = [
   {
@@ -132,6 +132,35 @@ const projects = [
       "Lead outcomes and household demographics",
     ],
   },
+  {
+    id: "F",
+    title: "Smart Cross-Sell & Bundle Optimization",
+    tagline: "Increase premium per customer through intelligent product recommendations",
+    icon: Layers,
+    problem: [
+      "Manual review of customer policies is time-consuming",
+      "Missing obvious bundling and cross-sell opportunities",
+      "Don't know when customers are most receptive to new products",
+      "Difficult to track which life events trigger coverage needs",
+      "No systematic follow-up on declined quotes",
+    ],
+    solution: [
+      "Automated policy gap analysis for every customer",
+      "Life event detection (marriage, new home, new car, children)",
+      "Personalized product recommendations with timing optimization",
+      "Bundle discount opportunity identification",
+      "Cross-sell conversation scripts and email templates",
+      "Competitive rate monitoring for switching opportunities",
+    ],
+    data: [
+      "Current policy mix per customer",
+      "Customer demographics and life stage",
+      "Recent quote activity (sold and declined)",
+      "Claims history and policy changes",
+      "Competitor rate sheets",
+      "Customer contact preferences and response history",
+    ],
+  },
 ];
 
 export default function AIProjects() {
@@ -144,7 +173,7 @@ export default function AIProjects() {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-4">
-            Five Core Systems
+            Six Core Systems
           </h2>
           <p className="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-12">
             Each system tackles a specific business challenge while creating compounding long-term value

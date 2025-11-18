@@ -20,7 +20,7 @@ const summaryCards = [
     icon: Lightbulb,
     title: "The Solution",
     description:
-      "A five-pillar integrated system that creates predictable, scalable growth through intelligent automation, personalization, and data-driven decision making.",
+      "A six-pillar integrated system that creates predictable, scalable growth through intelligent automation, personalization, and data-driven decision making.",
   },
 ];
 

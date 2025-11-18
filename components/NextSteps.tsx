@@ -3,6 +3,10 @@
 import { motion } from "framer-motion";
 import { FileCheck, Database, Calendar, Users } from "lucide-react";
 
+interface NextStepsProps {
+  onPrintClick?: () => void;
+}
+
 const steps = [
   {
     number: "1",
@@ -30,7 +34,7 @@ const steps = [
   },
 ];
 
-export default function NextSteps() {
+export default function NextSteps({ onPrintClick }: NextStepsProps) {
   return (
     <section className="py-20 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -84,27 +88,54 @@ export default function NextSteps() {
               Ready to Transform Your Agency?
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-3xl mx-auto">
-              This AI-enabled strategy positions Derrick's agency far ahead of competitors by
+              This strategy positions Derrick's agency far ahead of competitors by
               creating a predictable, scalable, automated growth engine that attracts better
               customers, protects existing policies, builds deeper loyalty, and helps achieve
               higher year-end variable compensation.
             </p>
+
+            {/* Contact Info */}
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 mb-8 max-w-2xl mx-auto">
+              <h4 className="text-xl font-bold text-primary mb-4">Schedule Your Kick-off Meeting</h4>
+              <div className="space-y-3 text-gray-700">
+                <p className="text-lg">
+                  <strong className="text-primary">Adrian Stier</strong> — Systems & Automation Consultant
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-base">
+                  <a
+                    href="mailto:adrian.stier@gmail.com"
+                    className="flex items-center gap-2 hover:text-primary-light transition-colors"
+                  >
+                    📧 adrian.stier@gmail.com
+                  </a>
+                  <span className="hidden sm:inline text-gray-400">•</span>
+                  <a
+                    href="tel:+12032418978"
+                    className="flex items-center gap-2 hover:text-primary-light transition-colors"
+                  >
+                    📞 (203) 241-8978
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
+              <motion.a
+                href="mailto:adrian.stier@gmail.com?subject=Agency Growth System - Kick-off Meeting&body=Hi Adrian,%0D%0A%0D%0AI'd like to schedule a kick-off meeting to discuss the Agency Growth & Retention System.%0D%0A%0D%0ABest times for me are:%0D%0A%0D%0AThanks,%0D%0ADerrick"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-primary to-primary-light text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Schedule Kick-off Meeting
-              </motion.button>
-              <motion.button
+                Email Adrian
+              </motion.a>
+              <motion.a
+                href="tel:+12032418978"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.print()}
                 className="bg-white text-primary border-2 border-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-primary hover:text-white shadow-md hover:shadow-lg transition-all duration-300"
               >
-                Download Full Proposal (PDF)
-              </motion.button>
+                Call Adrian
+              </motion.a>
             </div>
           </motion.div>
         </motion.div>

@@ -6,8 +6,8 @@ import { Check } from "lucide-react";
 const phases = [
   {
     number: "1",
-    title: "Data Collection & AI Model Setup",
-    weeks: "Weeks 1-3",
+    title: "Data Collection & System Setup",
+    weeks: "January - February 2026 (6-8 weeks)",
     tasks: [
       "Collect all datasets from agency systems",
       "Clean and normalize data",
@@ -16,44 +16,47 @@ const phases = [
       "Create customer personas and segments",
       "Establish data pipelines",
     ],
-    deliverable: "Validated datasets and trained AI models",
+    deliverable: "Validated datasets and trained models",
   },
   {
     number: "2",
     title: "Prototype Automation Systems",
-    weeks: "Weeks 4-6",
+    weeks: "March - April 2026 (6-8 weeks)",
     tasks: [
-      "Build AI invoice parser and mailing system",
+      "Build invoice parser and mailing system",
       "Create cancellation dashboard with risk triage",
       "Develop first version of personalized newsletters",
       "Build social ad generator and targeting system",
-      "Create executive AI summarization tool",
+      "Create cross-sell opportunity detector and recommendation engine",
+      "Create executive summarization tool",
       "Test workflows with sample data",
     ],
-    deliverable: "Working prototypes for all five systems",
+    deliverable: "Working prototypes for all six systems",
   },
   {
     number: "3",
     title: "Full Automation Deployment",
-    weeks: "Weeks 7-9",
+    weeks: "May - June 2026 (6-8 weeks)",
     tasks: [
-      "Deploy lead optimization agent to production",
-      "Launch automated invoice mailing agent",
-      "Activate concierge workflows",
+      "Deploy lead optimization to production",
+      "Launch automated invoice mailing",
+      "Activate customer engagement workflows",
       "Start social ad automation campaigns",
-      "Implement weekly AI reporting system",
-      "Train team on using AI tools",
+      "Launch cross-sell recommendation system with staff dashboard",
+      "Implement weekly reporting system",
+      "Train team on using automation tools",
     ],
-    deliverable: "Fully operational AI systems in production",
+    deliverable: "Fully operational systems in production",
   },
   {
     number: "4",
     title: "Optimization & Scaling",
-    weeks: "Weeks 10-12",
+    weeks: "July - August 2026 (6-8 weeks)",
     tasks: [
-      "AI accuracy training and refinement",
+      "Model accuracy training and refinement",
       "A/B testing of newsletters and ads",
       "Advanced lead forecasting implementation",
+      "Optimize cross-sell timing and messaging based on conversion data",
       "Full systems integration and workflow optimization",
       "Create documentation and knowledge base",
       "Establish ongoing support plan",
@@ -63,10 +66,10 @@ const phases = [
 ];
 
 const metrics = [
-  { week: "Week 3", label: "Lead Scoring Model Accuracy >80%" },
-  { week: "Week 6", label: "All Prototypes Functional" },
-  { week: "Week 9", label: "First Automated Campaign Live" },
-  { week: "Week 12", label: "15-20% Reduction in Manual Tasks" },
+  { week: "End of Feb", label: "Lead Scoring Model Accuracy >80%" },
+  { week: "End of April", label: "All Prototypes Functional" },
+  { week: "End of June", label: "First Automated Campaign Live" },
+  { week: "End of Aug", label: "15-20% Reduction in Manual Tasks" },
 ];
 
 export default function Timeline() {
@@ -81,8 +84,11 @@ export default function Timeline() {
           <h2 className="text-3xl md:text-4xl font-bold text-primary text-center mb-4">
             Implementation Timeline
           </h2>
-          <p className="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-16">
-            12-week phased rollout with measurable milestones
+          <p className="text-center text-gray-600 text-lg max-w-3xl mx-auto mb-4">
+            8-month phased rollout • Part-time engagement (1 day/week)
+          </p>
+          <p className="text-center text-gray-500 text-base max-w-2xl mx-auto mb-16">
+            Starting January 2026 with realistic milestones for sustainable progress
           </p>
 
           {/* Timeline */}
